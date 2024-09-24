@@ -3,6 +3,7 @@ const app = express();
 const port = 5001;
 const connect = require('./mongoose/connect');
 const {Department, Employee} = require('./mongoose/employee-department-model');
+const path = require('path');
 
 //setup cors
 const cors = require('cors');

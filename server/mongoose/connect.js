@@ -8,7 +8,7 @@ async function connect () {
     
     console.log(`Connecting to database`);
 
-    const uri = `mongodb://0.0.0.0:27017`;
+    const uri = `mongodb://mongo:27017`;
 
     //Connect to mongo
     connection = await mongoose.connect(uri, {
